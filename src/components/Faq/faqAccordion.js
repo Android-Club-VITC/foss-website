@@ -6,10 +6,7 @@ export default function FaqAccordion({index, faq}) {
     return (
         <div className="faq-dark-bg">
             <br/>
-            <div
-                className = "faq-accordion-question faq-dark-bg"
-                onClick = {() => setIsActive(!isActive)}
-            >
+            <div className = "faq-accordion-question faq-dark-bg">
                 <div className = "faq-dark-bg">
                     <span style = {{color: "#A3BE8C"}}>
                         guest@adrenaline:~/ques{index}${" "}
@@ -19,7 +16,10 @@ export default function FaqAccordion({index, faq}) {
                     </span>
                     <br/>
                 </div>
-                <div className = "faq-dark-bg faq-run-button faq-disable-select">
+                <div
+                    className = "faq-dark-bg faq-run-button faq-disable-select"
+                    onClick = {() => setIsActive(!isActive)}
+                >
                     { isActive ? "stop □" :"run ⩥" }
                 </div>
             </div>
