@@ -13,7 +13,7 @@ function App() {
       {/* <About/> */}
       {/* <Timeline/> */}
       {/* <Faq/> */}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
