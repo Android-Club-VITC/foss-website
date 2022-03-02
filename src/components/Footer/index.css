@@ -1,3 +1,43 @@
-div{
-    background: lime;
+* {
+  box-sizing: border-box;
+ 
+}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.footer-container {
+  font-family: 'Josefin Sans', cursive;
+  display: flex;
+  flex-wrap: wrap;
+  
+ padding-left: 10px;
+ padding-top: 25px;
+  
+background-color: #000d1a;
+ 
+}
+
+.footer-left {
+  background-color: #000d1a;
+ 
+ 
+  flex: 50%;
+}
+
+.footer-right {
+
+  background-color: #000d1a;
+ 
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .footer-right, .footer-left {
+    flex: 100%;
+    justify-content: center;
+
+  }
+  .footer-right{
+padding-top: 50px;
+  }
 }
