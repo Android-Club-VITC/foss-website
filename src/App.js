@@ -12,7 +12,7 @@ function App() {
       {/* <Landing /> */}
       {/* <About/> */}
       {/* <Timeline/> */}
-      {/* <Faq/> */}
+      <Faq/>
       {/* <Footer/> */}
     </div>
   );
