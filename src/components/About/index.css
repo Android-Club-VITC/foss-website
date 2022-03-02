@@ -1,3 +1,45 @@
-div{
-    background: lime;
+.About-backgroundContainer {
+	background-color: black;
+	color: white;
+	padding: 0.25em; /*1em = 16 px*/
+}
+
+.About-headerText {
+	background-color: black;
+	padding: 8vh;
+	text-align: center;
+	font-weight: bold;
+	font-family: Courier New;
+	font-size: 3.5vw;
+	color: green;
+	background-color: black;
+}
+
+.About-description {
+	display: flex;
+	gap: 3vw;
+	background-color: black;
+	margin-bottom: 6vh;
+}
+
+.About-leftDescription {
+	min-width: 35%;
+	background-color: black;
+}
+
+.About-rightDescription {
+	background-image: url("./rightImg.png");
+	background-color: black;
+	height: 'auto';
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+	font-family: Source Code Pro;
+	font-size: 1.9vw;
+	height: auto;
+	padding: 1.5vw;
+}
+
+img {
+	width: 100%;
 }
