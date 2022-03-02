@@ -1,6 +1,18 @@
 * {
     cursor: default;
 }
+.accordion-item{
+    border: 0;
+}
+.accordion-body{
+    margin: 0;
+    padding: 0;
+}
+button{
+    box-shadow: 0px 0px 0px transparent;
+border: 0px solid transparent;
+text-shadow: 0px 0px 0px transparent;
+}
 .faq-dark-bg {
     background-color: #3B4252;
 }
@@ -52,13 +64,12 @@
     cursor: pointer;
     border-color: #212529;
     border: solid;
-    border-width: 0.01vw;
-    border-radius: 0.5vw;
-    padding: 0.4vw;
-    margin: 0vw 1vw;
-    width: auto;
-    min-width: 55px;
-    max-height: 25px;
+    border-width: 1;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
     white-space: nowrap;
     text-align: center;
 }
@@ -66,4 +77,5 @@
 .faq-accordion-question {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }

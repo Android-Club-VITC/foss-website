@@ -22,11 +22,13 @@ export default function Faq(){
                 {
                     faqs.map(
                         (faq, index) => 
+                        <div class="accordion" id="accordionExample">
                             <FaqAccordion
                                 key = {index}
                                 index = {index}
                                 faq = {faq}
                             />
+                            </div>
                     )
                 }
             </div>
