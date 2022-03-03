@@ -4,10 +4,10 @@ import { Fade } from "react-reveal";
 import './index.css';
 
 export default function Landing(props) {
-    return (
-        <div className="landing">
+    return (<>
             <canvas id="matrix">
             </canvas>
+        <div className="landing">
             <div className="landing-clubs">
                 <Fade left>
                     <img className="landing-club-logo" src={require("./aclogo.png")} width="50px" height="50px" />
@@ -18,17 +18,17 @@ export default function Landing(props) {
             </div>
 
             <div className="landing-timer-container">
-                <Fade down>
+                {/* <Fade down> */}
                     <canvas id="landing-timer"></canvas>
-                </Fade>
+                {/* </Fade> */}
             </div>
             <div className="landing-title">
-                <Fade left>
+                {/* <Fade left> */}
                     <img className="landing-logo" src={require("./Logo_White.png")} />
-                </Fade>
-                <Fade right>
+                {/* </Fade> */}
+                {/* <Fade right> */}
                     <h1 className="landing-heading">RENALINE</h1>
-                </Fade>
+                {/* </Fade> */}
             </div>
             <Fade up>
 
@@ -51,5 +51,6 @@ export default function Landing(props) {
                 <script scr={require("./script.js")} defer />
             </Helmet>
         </div>
+    </>
     );
 }
