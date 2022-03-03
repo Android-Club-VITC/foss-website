@@ -9,9 +9,9 @@ import About from './components/About';
 function App() {
   return (
     <div className="App">
-      {/* <Landing /> */}
+      <Landing />
       <About/>
-      {/* <Timeline/> */}
+      <Timeline/>
       <Faq/>
       <Footer/>
     </div>
