@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade, Slide, Zoom } from "react-reveal";
 import FaqAccordion from "./faqAccordion";
 import { faqs } from "./faqContent"
 import './index.css';
@@ -13,7 +14,12 @@ import './index.css';
 export default function Faq(){
     return (
         <>
+        <Fade left>
+
                 <div className = "faq-title"><h1>FAQ</h1></div>
+        </Fade>
+        <Fade up>
+
         <div className = "faq-terminal-container faq-darkest-bg">
             <div className = "faq-title-bar faq-darkest-bg">
                 <div className = "faq-dot"/>
@@ -21,21 +27,25 @@ export default function Faq(){
                 <div className = "faq-dot"/>
             </div>
             <div className = "faq-terminal faq-dark-bg">
-                <hr/>
+                {/* <hr/> */}
+                <div class="accordion" id="accordionExample">
                 {
                     faqs.map(
                         (faq, index) => 
-                        <div class="accordion" id="accordionExample">
+                        // <Zoom>
+
                             <FaqAccordion
                                 key = {index}
                                 index = {index}
                                 faq = {faq}
-                            />
-                            </div>
-                    )
-                }
+                                />
+                                // </Zoom>
+                            )
+                        }
+                        </div>
             </div>
         </div>
+                    </Fade>
                 </>
     );
 }
