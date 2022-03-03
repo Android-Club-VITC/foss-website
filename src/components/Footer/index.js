@@ -37,7 +37,7 @@ export default function Footer(props) {
               justifyContent: "flex-start",
               paddingLeft: 30,
               paddingTop:50,
-              backgroundColor: "#000d1a",
+              backgroundColor: "black",
             }}
           >
             <FontAwesomeIcon icon={faLocationDot} color={"lime"} size="2xl" />
@@ -52,7 +52,7 @@ export default function Footer(props) {
               justifyContent: "flex-start",
               marginTop: 20,
               paddingLeft: 30,
-              backgroundColor: "#000d1a",
+              backgroundColor: "black",
             }}
           >
             {" "}
@@ -70,7 +70,7 @@ export default function Footer(props) {
               justifyContent: "space-between",
               width: "30%",
               marginLeft: 30,
-              backgroundColor: "#000d1a",
+              backgroundColor: "black",
             }}
           >
             <FontAwesomeIcon icon={faInstagram} size="2xl" color={"lime"} />
@@ -102,7 +102,7 @@ export default function Footer(props) {
               justifyContent: "flex-start",
               paddingLeft: 30,
               paddingTop:50,
-              backgroundColor: "#000d1a",
+              backgroundColor: "black",
             }}
           >
             <FontAwesomeIcon icon={faLocationDot}  color={"lime"}  size="2xl" />
@@ -117,7 +117,7 @@ export default function Footer(props) {
               justifyContent: "flex-start",
               marginTop: 20,
               paddingLeft: 30,
-              backgroundColor: "#000d1a",
+              backgroundColor: "black",
             }}
           >
             {" "}
@@ -135,7 +135,7 @@ export default function Footer(props) {
               justifyContent: "space-between",
               width: "30%",
               marginLeft: 30,
-              backgroundColor: "#000d1a",
+              backgroundColor: "black",
             }}
           >
             <FontAwesomeIcon icon={faInstagram}  color={"lime"}  size="2xl" />
@@ -143,7 +143,7 @@ export default function Footer(props) {
          
         </div>
         </div>
-        <div style={{width:'100%',padding:50,display:'flex',justifyContent:'center',backgroundColor:"#000d1a",color:'white'}}><h1>© 2022</h1> </div>
+        <div style={{width:'100%',padding:50,display:'flex',justifyContent:'center',color:'white'}}><h1>© 2022</h1> </div>
       </div>
     </>
   );
