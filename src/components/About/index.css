@@ -28,7 +28,7 @@
 }
 
 .About-rightDescription {
-	background-image: url("./rightImg.png");
+	/* background-image: url("./rightImg.png"); */
 	background-color: black;
 	height: 'auto';
         background-repeat: no-repeat;

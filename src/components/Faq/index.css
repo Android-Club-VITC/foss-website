@@ -26,6 +26,7 @@ text-shadow: 0px 0px 0px transparent;
 .faq-centered{
     text-align: center;
     width: 100%;
+  
 }
 
 .faq-disable-select {
@@ -37,13 +38,16 @@ text-shadow: 0px 0px 0px transparent;
 }
 
 .faq-terminal-container {
+
+      
+    
     color: #D8DEE9;
     font-family: consolas;
     border-radius: 1vw;
     margin: 5vw;
     padding: 1vw 0vw 0vw 0vw;
     width: auto;
-    min-width: 350px;
+  
 }
 
 .faq-title-bar {
@@ -93,15 +97,11 @@ text-shadow: 0px 0px 0px transparent;
 .faq-title{
     font-family: 'Goldman', cursive;
     width: 100vw;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: white;
-    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .faq-title h1{
     font-size: 5vw;
-    color:  black;
+    color: white;
 }

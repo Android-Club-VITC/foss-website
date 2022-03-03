@@ -12,18 +12,18 @@
  padding-left: 10px;
  padding-top: 25px;
   
-background-color: #000d1a;
+background-color: black;
  
 }
 
 .footer-left {
-  background-color: #000d1a;
+  background-color: black;
   flex: 50%;
 }
 
 .footer-right {
 
-  background-color: #000d1a;
+  background-color: black;
  
   flex: 50%;
 }
