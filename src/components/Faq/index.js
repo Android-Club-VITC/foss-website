@@ -11,41 +11,43 @@ import './index.css';
 *   -sam
 */
 
-export default function Faq(){
+export default function Faq() {
     return (
         <>
-        <Fade left>
+            <div className="faq-title">
+                <Fade left>
 
-                <div className = "faq-title"><h1>FAQ</h1></div>
-        </Fade>
-        <Fade up>
-
-        <div className = "faq-terminal-container faq-darkest-bg">
-            <div className = "faq-title-bar faq-darkest-bg">
-                <div className = "faq-dot"/>
-                <div className = "faq-dot"/>
-                <div className = "faq-dot"/>
+                    <h1>FAQ</h1>
+                </Fade>
             </div>
-            <div className = "faq-terminal faq-dark-bg">
-                {/* <hr/> */}
-                <div class="accordion" id="accordionExample">
-                {
-                    faqs.map(
-                        (faq, index) => 
-                        // <Zoom>
+            <Fade up>
 
-                            <FaqAccordion
-                                key = {index}
-                                index = {index}
-                                faq = {faq}
-                                />
-                                // </Zoom>
-                            )
-                        }
+                <div className="faq-terminal-container faq-darkest-bg">
+                    <div className="faq-title-bar faq-darkest-bg">
+                        <div className="faq-dot" />
+                        <div className="faq-dot" />
+                        <div className="faq-dot" />
+                    </div>
+                    <div className="faq-terminal faq-dark-bg">
+                        {/* <hr/> */}
+                        <div class="accordion" id="accordionExample">
+                            {
+                                faqs.map(
+                                    (faq, index) =>
+                                        // <Zoom>
+
+                                        <FaqAccordion
+                                            key={index}
+                                            index={index}
+                                            faq={faq}
+                                        />
+                                    // </Zoom>
+                                )
+                            }
                         </div>
-            </div>
-        </div>
-                    </Fade>
-                </>
+                    </div>
+                </div>
+            </Fade>
+        </>
     );
 }

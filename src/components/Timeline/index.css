@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-/* div{
-    background: lime;
-} */
-=======
 .timeline{
     background-color: #000000;
     color: white;
     font-weight: bold;
+    /* height: 100vh; */
     font-size: 30;
     justify-content: center;
 }
@@ -25,9 +21,6 @@
 }
 
 @media (max-width: 600px) {
-    .big{
-        display: none;
-    }
     .timer{
         width: 65%;
     }
@@ -37,4 +30,3 @@
         background-color: #000000;
     }
 }
->>>>>>> ac16915b7b52ae1ee62d9963fef1b9bdde09b64d

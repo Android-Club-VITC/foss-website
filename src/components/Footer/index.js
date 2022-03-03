@@ -15,7 +15,7 @@ export default function Footer(props) {
       <div className="footer-container">
         <div className="footer-left">
           <span style={{ display: "flex", justifyContent: "center" }}>
-            <h1 style={{ color: "green", padding: "5px",fontWeight:'lighter',paddingBottom:20 }}>
+            <h1 style={{ color: "lime", padding: "5px",fontWeight:'lighter',paddingBottom:20 }}>
               ANDROID CLUB VIT®
             </h1>
           </span>
@@ -40,7 +40,7 @@ export default function Footer(props) {
               backgroundColor: "#000d1a",
             }}
           >
-            <FontAwesomeIcon icon={faLocationDot} color={"green"} size="2xl" />
+            <FontAwesomeIcon icon={faLocationDot} color={"lime"} size="2xl" />
             <h4 style={{ marginLeft: 15,color:'white',fontWeight:'lighter' }}>
               Find Us: Vellore Institute of Technology, Chennai{" "}
             </h4>
@@ -56,7 +56,7 @@ export default function Footer(props) {
             }}
           >
             {" "}
-            <FontAwesomeIcon icon={faEnvelope} color={"green"} size="2xl" />
+            <FontAwesomeIcon icon={faEnvelope} color={"lime"} size="2xl" />
             <h4 style={{ marginLeft: 15,color:'white',fontWeight:'lighter'  }}>
               Mail Us at: androidclub@vit.ac.in{" "}
             </h4>
@@ -73,14 +73,14 @@ export default function Footer(props) {
               backgroundColor: "#000d1a",
             }}
           >
-            <FontAwesomeIcon icon={faInstagram} size="2xl" color={"green"} />
-            <FontAwesomeIcon icon={faLinkedin} size="2xl"  color={"green"} />
+            <FontAwesomeIcon icon={faInstagram} size="2xl" color={"lime"} />
+            <FontAwesomeIcon icon={faLinkedin} size="2xl"  color={"lime"} />
           </div>
         </div>
 
         <div className="footer-right">
         <span style={{ display: "flex", justifyContent: "center" }}>
-            <h1 style={{ color: "green", padding: "5px",fontWeight:'lighter',paddingBottom:20 }}>
+            <h1 style={{ color: "lime", padding: "5px",fontWeight:'lighter',paddingBottom:20 }}>
               Linux Club Vit®
             </h1>
           </span>
@@ -105,7 +105,7 @@ export default function Footer(props) {
               backgroundColor: "#000d1a",
             }}
           >
-            <FontAwesomeIcon icon={faLocationDot}  color={"green"}  size="2xl" />
+            <FontAwesomeIcon icon={faLocationDot}  color={"lime"}  size="2xl" />
             <h4 style={{ marginLeft: 15,color:'white',fontWeight:'lighter'  }}>
               Find Us: Vellore Institute of Technology, Chennai{" "}
             </h4>
@@ -121,7 +121,7 @@ export default function Footer(props) {
             }}
           >
             {" "}
-            <FontAwesomeIcon icon={faEnvelope}  color={"green"}  size="2xl" />
+            <FontAwesomeIcon icon={faEnvelope}  color={"lime"}  size="2xl" />
             <h4 style={{ marginLeft: 15,color:'white',fontWeight:'lighter'  }}>
               Mail Us at: androidclub@vit.ac.in{" "}
             </h4>
@@ -138,8 +138,8 @@ export default function Footer(props) {
               backgroundColor: "#000d1a",
             }}
           >
-            <FontAwesomeIcon icon={faInstagram}  color={"green"}  size="2xl" />
-            <FontAwesomeIcon icon={faLinkedin}   color={"green"}  size="2xl" />
+            <FontAwesomeIcon icon={faInstagram}  color={"lime"}  size="2xl" />
+            <FontAwesomeIcon icon={faLinkedin}   color={"lime"}  size="2xl" />
          
         </div>
         </div>

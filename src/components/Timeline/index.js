@@ -1,11 +1,21 @@
 import React from "react";
+import {Fade} from 'react-reveal';
 import './index.css';
 
-export default function Timeline(){
+export default function Timeline() {
     return (
-        <div className="timeline">
-        <div className="big"><img src={require('./timefullgreen.png')} className="timefull" /></div>
-        <div className="small"><img src={require('./timergreen.png')} className="timer" /></div>
-       </div>
+        <>
+            <div className="faq-title">
+                <Fade left>
+                    <h1>Timeline</h1>
+                </Fade>
+            </div>
+            <Fade right>
+            <div className="timeline">
+                <div className="big"><img src={require('./timelinefinal.png')} className="timefull" /></div>
+                
+            </div>
+            </Fade>
+        </>
     );
 }

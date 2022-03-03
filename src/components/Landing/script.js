@@ -1,35 +1,36 @@
 // 'use strict';
-// var cw, ch;
-// // const canvas = document.createElement("CANVAS");
-// const canvas = document.getElementById("matrix");
-// canvas.width = cw = window.innerWidth;
-// canvas.height = ch = window.innerHeight - 20;
-// canvas.style.display = 'block';
-// const ctx = canvas.getContext('2d');
-// var matrix = '0123456789abcdefijklmnopqrstuvwxyz'.split('');
-// var rain = []
-// onload = () => {
-//     document.body.style.background = 'black';
-//     for (let i = 0; i < cw / 2; i++)
-//         rain[i] = 1;
-//     //var prom = prompt('please choose column', '3');
-//     function raining() {
-//         ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
-//         ctx.fillRect(0, 0, cw, ch);
+var cw, ch;
+// const canvas = document.createElement("CANVAS");
+setTimeout(()=>{
+    const canvas = document.getElementById("matrix");
+    canvas.width = cw = window.innerWidth;
+    canvas.height = ch = window.innerHeight;
+    canvas.style.display = 'block';
+    const ctx = canvas.getContext('2d');
+    var matrix = '0123456789abcdefijklmnopqrstuvwxyz'.split('');
+    var rain = []
+    document.body.style.background = 'black';
+    for (let i = 0; i < cw / 2; i++)
+        rain[i] = 1;
+    //var prom = prompt('please choose column', '3');
+    function raining() {
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+        ctx.fillRect(0, 0, cw, ch);
 
-//         ctx.fillStyle = 'cyan';
-//         ctx.font = 25 + 'px arial';
-//         for (let j = 0; j < rain.length; j++) {
-//             var txt = matrix[Math.floor(Math.random() * matrix.length)];
-//             ctx.fillText(txt, j * 10, rain[j] * 10);
-//             if (rain[j] * 10 > ch && Math.random() > 0.975)
-//                 rain[j] = 0;
+        ctx.fillStyle = 'cyan';
+        ctx.font = 25 + 'px arial';
+        for (let j = 0; j < rain.length; j++) {
+            var txt = matrix[Math.floor(Math.random() * matrix.length)];
+            ctx.fillText(txt, j * 10, rain[j] * 10);
+            if (rain[j] * 10 > ch && Math.random() > 0.975)
+                rain[j] = 0;
 
-//             rain[j]++;
-//         }
-//     }
-//     setInterval(raining, 50);
-// }
+            rain[j]++;
+        }
+    }
+    setInterval(raining, 50);
+}, 1000);
+// rains();
 
 // Countdown Script
 var ringer = {
@@ -57,7 +58,7 @@ var ringer = {
         //     max: 100
         // }
     },
-    r_count: 5,
+    r_count: 4,
     r_spacing: 15, // px
     r_size: 100, // px
     r_thickness: 5, // px
