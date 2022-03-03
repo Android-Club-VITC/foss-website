@@ -1,3 +1,40 @@
+<<<<<<< HEAD
 /* div{
     background: lime;
 } */
+=======
+.timeline{
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    font-size: 30;
+    justify-content: center;
+}
+@media (min-width: 601px) {
+    .big{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+    }
+    .small{
+        display: none;
+    }
+    .timefull{
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .big{
+        display: none;
+    }
+    .timer{
+        width: 65%;
+    }
+    .small{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+    }
+}
+>>>>>>> ac16915b7b52ae1ee62d9963fef1b9bdde09b64d
