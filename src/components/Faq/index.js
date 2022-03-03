@@ -12,12 +12,15 @@ import './index.css';
 
 export default function Faq(){
     return (
+        <>
+                <div className = "faq-title"><h1>FAQ</h1></div>
         <div className = "faq-terminal-container faq-darkest-bg">
             <div className = "faq-title-bar faq-darkest-bg">
                 <div className = "faq-dot"/>
+                <div className = "faq-dot"/>
+                <div className = "faq-dot"/>
             </div>
             <div className = "faq-terminal faq-dark-bg">
-                <div className = "faq-dark-bg faq-centered"><h1>FAQs</h1></div>
                 <hr/>
                 {
                     faqs.map(
@@ -33,5 +36,6 @@ export default function Faq(){
                 }
             </div>
         </div>
+                </>
     );
 }

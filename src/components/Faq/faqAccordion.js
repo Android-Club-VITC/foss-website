@@ -11,10 +11,13 @@ export default function FaqAccordion({ index, faq }) {
                 <div class="accordion-item">
                     <div type="button" className="faq-accordion-question faq-dark-bg">
                         <div className="faq-dark-bg">
-                            <span style={{ color: "#A3BE8C", fontSize: "20px" }}>
-                                guest@adrenaline:~/ques{index}${" "}
+                            <span style={{ color: "lime", fontSize: "20px" }}>
+                                guest@adrenaline:${" "}
                             </span>
-                            <span style={{ color: "#BF616A", fontSize: "20px" }}>
+                            <span style={{ color: "cyan", fontSize: "20px" }}>
+                                ~/ques{index}${" "}
+                            </span>
+                            <span style={{ color: "white", fontSize: "20px" }}>
                                 {faq.question}
                             </span>
                             <br />

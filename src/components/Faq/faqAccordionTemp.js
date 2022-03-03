@@ -7,7 +7,10 @@ export default function FaqAccordionTemp({faqs}) {
             (faq, index) =>
                 <div className = "faq-dark-bg">
                     <span style = {{color: "#A3BE8C"}}>
-                        guest@adrenaline:~/ques{index}${" "}
+                        guest@adrenaline:{index}${" "}
+                    </span>
+                    <span style = {{color: "green"}}>
+                        ~/ques{index}${" "}
                     </span>
                     <span style = {{color: "#BF616A"}}>
                         {faq.question}
