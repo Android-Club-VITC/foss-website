@@ -1,27 +1,49 @@
 export const faqs = [
-    {
-      id: "one",
-      question: "q1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique orci est. ",
-      answer: "a1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique orci est. Nulla mollis nisi quis lobortis malesuada. Mauris tempus odio lacus. In molestie, turpis luctus dignissim tempus, tellus neque efficitur dui, ac semper velit lorem ut orci. Duis ultrices arcu sit amet est finibus elementum. Donec enim justo, porta varius eros id, semper tempor odio. Nulla diam neque, mollis sed nibh ut, euismod sodales neque. Mauris hendrerit nisl at convallis tristique. Suspendisse nec lorem consectetur, volutpat augue sed, condimentum libero. Aenean semper libero vel feugiat hendrerit. Ut aliquet, lectus a commodo fringilla, felis sem vestibulum nibh, eget tempor ipsum nunc vel tellus. Vivamus mattis ornare massa a ullamcorper. Donec egestas lacus non dolor commodo commodo vitae eu lectus. Integer at leo cursus, facilisis quam ut, tincidunt mauris."
-    },
+  {
+    id: "one",
+    question:   "What is Adrenaline?",
+    answer: "Adrenaline is a project building event using open-source softwares, based on the domains provided. "
+  },
     {
       id: "two",
-      question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique orci est. ",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique orci est. Nulla mollis nisi quis lobortis malesuada. Mauris tempus odio lacus. In molestie, turpis luctus dignissim tempus, tellus neque efficitur dui, ac semper velit lorem ut orci. Duis ultrices arcu sit amet est finibus elementum. Donec enim justo, porta varius eros id, semper tempor odio. Nulla diam neque, mollis sed nibh ut, euismod sodales neque. Mauris hendrerit nisl at convallis tristique. Suspendisse nec lorem consectetur, volutpat augue sed, condimentum libero. Aenean semper libero vel feugiat hendrerit. Ut aliquet, lectus a commodo fringilla, felis sem vestibulum nibh, eget tempor ipsum nunc vel tellus. Vivamus mattis ornare massa a ullamcorper. Donec egestas lacus non dolor commodo commodo vitae eu lectus. Integer at leo cursus, facilisis quam ut, tincidunt mauris."
+      question:   "Is this an online event?",
+      answer: "Nope, this is the first offline event after the entire covid situation."
     },
     {
       id: "three",
-      question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique orci est. ",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique orci est. Nulla mollis nisi quis lobortis malesuada. Mauris tempus odio lacus. In molestie, turpis luctus dignissim tempus, tellus neque efficitur dui, ac semper velit lorem ut orci. Duis ultrices arcu sit amet est finibus elementum. Donec enim justo, porta varius eros id, semper tempor odio. Nulla diam neque, mollis sed nibh ut, euismod sodales neque. Mauris hendrerit nisl at convallis tristique. Suspendisse nec lorem consectetur, volutpat augue sed, condimentum libero. Aenean semper libero vel feugiat hendrerit. Ut aliquet, lectus a commodo fringilla, felis sem vestibulum nibh, eget tempor ipsum nunc vel tellus. Vivamus mattis ornare massa a ullamcorper. Donec egestas lacus non dolor commodo commodo vitae eu lectus. Integer at leo cursus, facilisis quam ut, tincidunt mauris."
+      question:   "Will attendance of participants be affected? ",
+      answer: "An OD would be provided to the participants for the event duration. "
     },
     {
       id: "four",
-      question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique orci est. ",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique orci est. Nulla mollis nisi quis lobortis malesuada. Mauris tempus odio lacus. In molestie, turpis luctus dignissim tempus, tellus neque efficitur dui, ac semper velit lorem ut orci. Duis ultrices arcu sit amet est finibus elementum. Donec enim justo, porta varius eros id, semper tempor odio. Nulla diam neque, mollis sed nibh ut, euismod sodales neque. Mauris hendrerit nisl at convallis tristique. Suspendisse nec lorem consectetur, volutpat augue sed, condimentum libero. Aenean semper libero vel feugiat hendrerit. Ut aliquet, lectus a commodo fringilla, felis sem vestibulum nibh, eget tempor ipsum nunc vel tellus. Vivamus mattis ornare massa a ullamcorper. Donec egestas lacus non dolor commodo commodo vitae eu lectus. Integer at leo cursus, facilisis quam ut, tincidunt mauris."
+      question:   "When will the domains be provided?",
+      answer: "They will be provided 2-3 days prior to the event."
     },
     {
       id: "five",
-      question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique orci est. ",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique orci est. Nulla mollis nisi quis lobortis malesuada. Mauris tempus odio lacus. In molestie, turpis luctus dignissim tempus, tellus neque efficitur dui, ac semper velit lorem ut orci. Duis ultrices arcu sit amet est finibus elementum. Donec enim justo, porta varius eros id, semper tempor odio. Nulla diam neque, mollis sed nibh ut, euismod sodales neque. Mauris hendrerit nisl at convallis tristique. Suspendisse nec lorem consectetur, volutpat augue sed, condimentum libero. Aenean semper libero vel feugiat hendrerit. Ut aliquet, lectus a commodo fringilla, felis sem vestibulum nibh, eget tempor ipsum nunc vel tellus. Vivamus mattis ornare massa a ullamcorper. Donec egestas lacus non dolor commodo commodo vitae eu lectus. Integer at leo cursus, facilisis quam ut, tincidunt mauris."
+      question:   "Do I need a team?",
+      answer: "While you do have the option of participating solo, a team of maximum 3 members will be entertained. "
+    },
+    {
+      id: "six",
+      question:   "How much does it cost? ",
+      answer: "There’s an entry fee of 300 rs irrespective of the number of members in a team"
+    },
+    {
+      id: "seven",
+      question:   "Is the event only for VIT Students?",
+      answer: "Yes, since this event will take place on VIT Chennai campus, it's exclusive for VIT Chennai students. "
+    }, {
+      id: "eight",
+      question:   "What is the marking criteria?",
+      answer: "The marking criteria will be revealed on the day of the event."
+    }, {
+      id: "nine",
+      question:   "How long is the event?",
+      answer: " Adrenaline is a one day event on 17th of March 2022."
+    }, {
+      id: "ten",
+      question:   "Are there any prerequisites?",
+      answer: "While there are no prerequisites to register, having a good grasp over open source and programming will help"
     }
 ];
