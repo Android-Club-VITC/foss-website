@@ -5,12 +5,13 @@
 }
 
 .About-headerText {
+	
 	background-color: black;
 	padding: 8vh;
 	text-align: center;
 	font-weight: bold;
 	font-family: Courier New;
-	font-size: 3.5vw;
+	font-size: 9vh;
 	color: green;
 	background-color: black;
 }
@@ -25,6 +26,7 @@
 .About-leftDescription {
 	min-width: 35%;
 	background-color: black;
+	
 }
 
 .About-rightDescription {
@@ -35,11 +37,39 @@
         background-size: contain;
         background-position: center;
 	font-family: Source Code Pro;
-	font-size: 1.9vw;
+	font-size: 1.5rem;
 	height: auto;
 	padding: 1.5vw;
 }
 
 img {
 	width: 100%;
+}
+
+
+@media (max-width: 540px) {
+	.About-headerText {
+		font-size: 2.5rem;
+		font-weight:bolder;
+	
+  }
+  .About-rightDescription{
+font-size: 0.9rem;
+  }
+}
+@media(max-width:1024px){
+.About-description {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3vw;
+	background-color: black;
+	margin-bottom: 6vh;}
+	.About-leftDescription {
+		min-width: 40%;
+		
+	    
+		background-color: black;
+		
+	}	
 }
