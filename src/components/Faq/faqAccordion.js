@@ -15,7 +15,7 @@ export default function FaqAccordion({ index, faq }) {
                                 Guest@Adrenaline:${" "}
                             </span>
                             <span style={{ color: "cyan", fontSize: "20px" }}>
-                                ~/Ques{index}${" "}
+                                {/* ?~/Ques */}
                             </span>
                             <span style={{ color: "white", fontSize: "20px" }}>
                                 {faq.question}
