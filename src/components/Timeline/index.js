@@ -12,7 +12,7 @@ export default function Timeline() {
             </div>
             <Fade right>
             <div className="timeline">
-                <div className="big"><img src={require('./time.png')} className="timefull" /></div>
+                <div className="big"><img src={require('./timet.png')} className="timefull" /></div>
                 
             </div>
             </Fade>
