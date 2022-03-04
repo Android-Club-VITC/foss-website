@@ -1,3 +1,5 @@
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import './index.css';
 
@@ -23,12 +25,13 @@ export default function FaqAccordion({ index, faq }) {
                             <br />
                         </div>
                         <div
-                            className="faq-dark-bg faq-run-button faq-disable-select"
+                            className="faq-dark-bg faq-disable-select"   style={{minWidth:'10%'}}
                             onClick={() => setIsActive(!isActive)}
                             data-bs-toggle="collapse" data-bs-target={"#" + faq.id} aria-expanded="true" aria-controls="collapseOne"
                         >
-                            {isActive ? <i class="fa-solid fa-stop"></i>: <i class="fa-solid fa-play"></i>}
+                            {isActive ?<FontAwesomeIcon icon={faCaretDown} size="2xl" style={{cursor:'pointer'}} />: <FontAwesomeIcon icon={faCaretDown} size="2xl" style={{cursor: 'pointer'}} />}
                         </div>
+                    
                     </div>
                     <div id={faq.id} class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
