@@ -5,8 +5,10 @@ import gif from './aboutSide.gif';
 export default function About(props){
     return (
         <div className="About-backgroundContainer">
-            <div className="About-headerText">
-          [android@lug]$ ./Adrenaline --help
+            
+	<div className="About-headerText">
+		[android@lug]$ ./Adrenaline --help 
+         
 	    </div>
 	    <div className="About-description">
 	    	<div className="About-leftDescription">

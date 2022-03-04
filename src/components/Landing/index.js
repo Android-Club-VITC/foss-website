@@ -57,8 +57,12 @@ export default function Landing(props) {
             <Fade up>
 
                 <div className="landing-venue">
+                  
                     {/* <!-- <i className="fa-solid fa-calendar"></i> --> */}
-                    $(Event.Date): 17th March 2021
+                  <div style={{display:'flex', flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+                  <span> $(Event.Date) </span> 
+                  <span>17th March 2022</span>
+                  </div>
                 </div>
                 <div className="landing-buttons">
                     <button className="landing-register" onClick={handleOpen}>

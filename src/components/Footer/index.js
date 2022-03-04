@@ -40,6 +40,7 @@ export default function Footer(props) {
           </h4>
 
           <div
+            className="isVisible"
             style={{
               display: "flex",
               alignItems: "center",
@@ -57,6 +58,7 @@ export default function Footer(props) {
             </h4>
           </div>
           <div
+            className="isVisible"
             style={{
               display: "flex",
               alignItems: "center",
@@ -86,12 +88,25 @@ export default function Footer(props) {
               backgroundColor: "black",
             }}
           >
-            <FontAwesomeIcon icon={faInstagram} size="2xl" color={"lime"} onClick={(e) => {
-      e.preventDefault();
-      window.location.href='https://www.instagram.com/androidvitc'}}/>
-            <FontAwesomeIcon icon={faLinkedin} size="2xl" color={"lime"} onClick={(e) => {
-      e.preventDefault();
-      window.location.href='https://www.linkedin.com/company/android-club-vitc/mycompany/'}}/>
+            <FontAwesomeIcon
+              icon={faInstagram}
+              size="2xl"
+              color={"lime"}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "https://www.instagram.com/androidvitc";
+              }}
+            />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              size="2xl"
+              color={"lime"}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href =
+                  "https://www.linkedin.com/company/android-club-vitc/mycompany/";
+              }}
+            />
           </div>
         </div>
 
@@ -121,6 +136,7 @@ export default function Footer(props) {
           </h4>
 
           <div
+            className="isVisible"
             style={{
               display: "flex",
               alignItems: "center",
@@ -138,6 +154,7 @@ export default function Footer(props) {
             </h4>
           </div>
           <div
+            className="isVisible"
             style={{
               display: "flex",
               alignItems: "center",
@@ -148,11 +165,11 @@ export default function Footer(props) {
             }}
           >
             {" "}
-            <FontAwesomeIcon icon={faEnvelope} color={"lime"} size="2xl"   />
+            <FontAwesomeIcon icon={faEnvelope} color={"lime"} size="2xl" />
             <h4
               style={{ marginLeft: 15, color: "white", fontWeight: "lighter" }}
             >
-              Mail Us at: linuxclub@vit.ac.in{" "}
+              Mail Us at: lug.vitc@gmail.com{" "}
             </h4>
           </div>
           <div
@@ -167,27 +184,95 @@ export default function Footer(props) {
               backgroundColor: "black",
             }}
           >
-            <FontAwesomeIcon icon={faInstagram} color={"lime"} size="2xl" onClick={(e) => {
-      e.preventDefault();
-      window.location.href='https://www.instagram.com/lugvitc/';
-      }}/>
-            <FontAwesomeIcon icon={faLinkedin} color={"lime"} size="2xl" onClick={(e) => {
-      e.preventDefault();
-      window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-      }}  />
+            {/* <span> */}
+            <FontAwesomeIcon
+              icon={faInstagram}
+              color={"lime"}
+              size="2xl"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "https://www.instagram.com/lugvitc/";
+              }}
+            />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              color={"lime"}
+              size="2xl"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href =
+                  "https://www.linkedin.com/company/lugvitc/";
+              }}
+            />
           </div>
         </div>
-        <div
+        <div className="invisible-container">
+          <span
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
+            {" "}
+            <FontAwesomeIcon
+              icon={faLocationDot}
+              color={"lime"}
+              size="xl"
+              style={{ padding: 5 }}
+            />
+            <h6 style={{ color: "white" }}>
+              {" "}
+              Find Us: Vellore Institute of Technology, Chennai{" "}
+            </h6>
+          </span>
+          <span
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
+            {" "}
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              color={"lime"}
+              size="xl"
+              style={{ padding: 5 }}
+            />
+            <h6 style={{ color: "white" }}>
+              Mail Android Club at: androidclub@vit.ac.in{" "}
+            </h6>
+          </span>
+          <span
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
+            {" "}
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              color={"lime"}
+              size="xl"
+              style={{ padding: 5 }}
+            />
+            <h6 style={{ color: "white" }}>
+              Mail Linux Club at: lug.vitc@gmail.com{" "}
+            </h6>
+          </span>
+        </div>
+        <span
           style={{
             width: "100%",
-            padding: 50,
             display: "flex",
             justifyContent: "center",
-            color: "white",
+            padding: 25,
           }}
         >
-          <h1>© 2022</h1>{" "}
-        </div>
+          <h1 style={{ color: "white", fontWeight: "lighter" }}>© 2022</h1>{" "}
+        </span>
       </div>
     </>
   );
