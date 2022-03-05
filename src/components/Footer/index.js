@@ -27,7 +27,7 @@ export default function Footer(props) {
             </h1>
           </span>
           <h4
-            style={{ padding: "10px", color: "white", fontWeight: "lighter" }}
+            style={{ padding: "10px", color: "white", fontWeight: "lighter", wordSpacing: "3px"}}
           >
             Android club was founded with the vision of creating a community that strives for innovation. 
             The objective of the club has always been to create awareness about Android technology among 
