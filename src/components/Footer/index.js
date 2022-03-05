@@ -27,7 +27,7 @@ export default function Footer(props) {
             </h1>
           </span>
           <h4
-            style={{ padding: "10px", color: "white", fontWeight: "lighter", wordSpacing: "3px"}}
+            style={{ padding: "10px", color: "white", fontWeight: "lighter", wordSpacing: "2px", textAlign: "justify"}}
           >
             Android club was founded with the vision of creating a community that strives for innovation. 
             The objective of the club has always been to create awareness about Android technology among 
@@ -124,7 +124,7 @@ export default function Footer(props) {
             </h1>
           </span>
           <h4
-            style={{ padding: "10px", color: "white", fontWeight: "lighter" }}
+            style={{ padding: "10px", color: "white", fontWeight: "lighter", wordSpacing: "4px", textAlign: "justify" }}
           >
             The 'Linux Club' of VIT, Chennai was created to Spread the awareness
             of Free and Open Source Software (FOSS) through Linux flavours. It
@@ -134,6 +134,13 @@ export default function Footer(props) {
             non-proprietary tools. It aims to get member to contribute to FOSS,
             make them more industry ready and to promote GNU/Linux in General.
           </h4>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
 
           <div
             className="isVisible"
