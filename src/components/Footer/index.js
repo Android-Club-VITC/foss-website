@@ -29,14 +29,14 @@ export default function Footer(props) {
           <h4
             style={{ padding: "10px", color: "white", fontWeight: "lighter" }}
           >
-            Android club is for developers who are interested in androids
-            developer technology; everything from the Android, Chrome, Drive,
-            and Google Cloud platforms, to product APIs like the Cast API, Maps
-            API, and YouTube API are being used by the students to build apps. A
-            club can take many forms from just a few people getting together, to
-            large gatherings with demos and tech talks, to events like code
-            sprints and hack-a-thon’s. However, at core, android club focuses on
-            development of technical content
+            Android club was founded with the vision of creating a community that strives for innovation. 
+            The objective of the club has always been to create awareness about Android technology among 
+            students and inspire each to make a difference by solving varied social problems. Understanding 
+            the power of application development and the transformation it can bring in a developers' arsenal 
+            is what makes us do what we do. We at Android Club aim to harness the capability of each individual 
+            by educating and experimenting. Sharing and spreading the knowledge further to our faculties and 
+            students has always been our motive. We believe in the philosophy of creative implemention of ideas 
+            through self- expression and no better way to do it than by building your own application.
           </h4>
 
           <div
