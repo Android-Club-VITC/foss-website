@@ -17,7 +17,7 @@ text-shadow: 0px 0px 0px transparent;
 }
 .faq-dark-bg {
     background-color: #3B4252;
-   
+    padding-right: 5%;
 }
 
 .faq-darkest-bg {
@@ -32,6 +32,7 @@ text-shadow: 0px 0px 0px transparent;
 }
 
 .faq-disable-select {
+    cursor: pointer;
     user-select: none; /* supported by Chrome and Opera */
    -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
@@ -77,7 +78,7 @@ text-shadow: 0px 0px 0px transparent;
 }
 
 .faq-run-button {
-    cursor: pointer;
+    
     border-color: #212529;
     border: solid;
     border-width: 1;
