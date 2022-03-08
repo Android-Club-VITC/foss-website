@@ -2,15 +2,10 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-reveal";
 import './index.css';
-import Modal from '@mui/material/Modal';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
+
 
 export default function Landing(props) {
-    const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+    
 
   const style = {
     display:'flex',
@@ -65,7 +60,10 @@ export default function Landing(props) {
                   </div>
                 </div>
                 <div className="landing-buttons">
-                    <button className="landing-register" onClick={handleOpen}>
+                    <button className="landing-register" onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://vitchennaievents.com/conf1/';
+      }}>
                         REGISTER
                         <i className="fa-solid fa-right-to-bracket"></i>
                     </button>
@@ -82,23 +80,7 @@ export default function Landing(props) {
                 <script scr={require("./script.js")} defer />
             </Helmet>
         </div>
-        <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2" color="common.white">
-          <h1 sx={{color:'white'}}> Registrations</h1>
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }} color="common.white">
-          <h1 sx={{fontColor:'white'}}> Opening Soon!</h1>
-          
-          </Typography>
-          <Button  variant="contained" onClick={handleClose}>Close</Button>
-        </Box>
-      </Modal>
+      
     </>
     );
 }
