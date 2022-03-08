@@ -3,7 +3,26 @@ import { Helmet } from "react-helmet";
 import { Fade } from "react-reveal";
 import './index.css';
 
+
 export default function Landing(props) {
+    
+
+  const style = {
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
+    flexDirection:'column',
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 'auto',
+    height:'auto',
+    bgcolor: "#000D1a",
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+  };
     return (<>
             <canvas id="matrix">
             </canvas>
@@ -33,15 +52,25 @@ export default function Landing(props) {
             <Fade up>
 
                 <div className="landing-venue">
+                  
                     {/* <!-- <i className="fa-solid fa-calendar"></i> --> */}
-                    $(Event.Date): 17th March 2021
+                  <div style={{display:'flex', flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+                  <span> $(Event.Date) </span> 
+                  <span>17th March 2022</span>
+                  </div>
                 </div>
                 <div className="landing-buttons">
-                    <button className="landing-register">
+                    <button className="landing-register" onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://vitchennaievents.com/conf1/';
+      }}>
                         REGISTER
                         <i className="fa-solid fa-right-to-bracket"></i>
                     </button>
-                    <button className="landing-register landing-discord">
+                    <button className="landing-register landing-discord" onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://discord.gg/xK23wBty';
+      }}>
                         <i className="fab fa-discord"></i>
                         DISCORD
                     </button>
@@ -51,6 +80,7 @@ export default function Landing(props) {
                 <script scr={require("./script.js")} defer />
             </Helmet>
         </div>
+      
     </>
     );
 }

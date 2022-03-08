@@ -12,21 +12,27 @@
  padding-left: 10px;
  padding-top: 25px;
   
-background-color: #000d1a;
+background-color: black;
  
 }
 
 .footer-left {
-  background-color: #000d1a;
+  background-color: black;
   flex: 50%;
 }
 
 .footer-right {
 
-  background-color: #000d1a;
+  background-color: black;
  
   flex: 50%;
 }
+.invisible-container{
+  display: none;
+visibility: hidden;
+position: absolute;
+}
+
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 @media (max-width: 800px) {
@@ -38,4 +44,21 @@ background-color: #000d1a;
   .footer-right{  
     padding-top: 50px;
   }
+  .isVisible{
+    display: none;
+    visibility: hidden;
+    position: absolute;
+  }
+  .invisible-container{
+   visibility: visible;
+   position: relative;
+     padding-top: 10%; 
+     display: flex; 
+    flex-direction: column; 
+   
+     align-items: flex-start; 
+    
+    width: 100%;
+  }
 }
+
